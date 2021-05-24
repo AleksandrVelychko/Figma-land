@@ -1,0 +1,64 @@
+.intro {
+    background-color: #181818;
+    height: 200vh;
+    color: #fff;
+    text-align: center;
+
+    &__title {
+        padding: 200px 0 0 0; 
+        font-size: 80px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 100px;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+
+    &__container {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 1199px) {
+    
+}
+
+@media screen and (max-width: 991px) {
+
+    .intro {
+        height: 120vh;
+    }
+
+    .intro__title {
+        font-size: 50px;
+    }
+
+    .intro__container div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro__container div > a {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    
+}

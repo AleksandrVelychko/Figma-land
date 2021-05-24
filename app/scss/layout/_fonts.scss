@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../css/fonts/Graphik/Graphik-Regular.eot');
+    src: local('../../css/fonts/Graphik/Graphik Regular'), local('Graphik-Regular'),
+        url('../../css/fonts/Graphik/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../css/fonts/Graphik/Graphik-Regular.woff2') format('woff2'),
+        url('../../css/fonts/Graphik/Graphik-Regular.woff') format('woff'),
+        url('../../css/fonts/Graphik/Graphik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    src: url('../../css/fonts/Graphik/');
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../css/fonts/Graphik/Graphik-Medium.eot');
+    src: local('../../css/fonts/Graphik/Graphik Medium'), local('Graphik-Medium'),
+        url('../../css/fonts/Graphik/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../css/fonts/Graphik/Graphik-Medium.woff2') format('woff2'),
+        url('../../css/fonts/Graphik/Graphik-Medium.woff') format('woff'),
+        url('../../css/fonts/Graphik/Graphik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

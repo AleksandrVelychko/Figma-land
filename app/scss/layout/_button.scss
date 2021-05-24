@@ -1,0 +1,91 @@
+// header/gallery/partners btns
+
+.header__button,
+.gallery__button,
+.partners__button {
+    position: relative;
+    color: #fff;
+    z-index: 9;
+    padding: 15px 45px;
+    border: 1px solid #fff;
+    font-size: 17px;
+    transition: all .3s;
+
+    &:hover {
+        text-decoration: none;
+        background: #4452FE;
+        color: #fff;
+        border: 1px solid #4452FE;
+    }
+}
+
+
+// intro button
+
+.intro__button {
+    padding: 20px 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 0 15px;
+    transition: all .3s;
+
+    &:hover {
+        text-decoration: none;
+        background: #4452FE;
+        color: #fff;
+        border: 1px solid #4452FE;
+    }
+}
+
+.intro__button--active {
+    background: #4452FE;
+    border: 1px solid #4452FE;
+}
+
+// contents button
+.contents__card-button {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    color: #fff;
+    background-color: #4452FE;
+    display: block;
+    margin-bottom: 55px;
+    border: 1px solid  rgba(0, 0, 0, 0);
+    transition: all .3s;
+
+    &:hover {
+        text-decoration: none;
+        color: #000;
+        border: 1px solid  rgba(0, 0, 0, 1);
+        background-color: transparent;
+    }
+}
+
+body > section.contents > div > div > div.contents__card-design > a {
+    margin-bottom: 0;
+}
+
+// offer button
+
+.offer__button {
+    color: #fff;
+    background: #4452FE;
+    padding: 13.5px 67px;
+    border: 1px solid  rgba(255, 255, 255, 0);
+    transition: all .3s;
+
+    &:hover {
+        text-decoration: none;
+        color: #000;
+        background: #fff;
+        border: 1px solid  rgb(255, 255, 255);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__button {
+        padding: 10px 25px;
+    }
+}

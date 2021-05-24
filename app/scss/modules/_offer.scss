@@ -1,0 +1,45 @@
+.offer {
+    padding: 100px 0;
+
+    &__title {
+        font-size: 52px;
+        line-height: 62px;
+        margin-bottom: 50px;
+    }
+
+    &__wrap {
+        display: flex;
+        background: #343434;
+        padding: 20px 0 0 70px;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    &__img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .offer {
+        text-align: center;
+        padding: 50px 0;
+
+        &__container {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+
+   .offer__wrap {
+       flex-direction: column;
+       padding: 10px;
+       border-radius: 0;
+    }
+
+    .offer__img {
+        padding-top: 70px;
+    }
+}

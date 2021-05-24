@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Regular.eot');
+    src: local('Graphik Regular'), local('Graphik-Regular'),
+        url('Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Graphik-Regular.woff2') format('woff2'),
+        url('Graphik-Regular.woff') format('woff'),
+        url('Graphik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-LightItalic.eot');
+    src: local('Graphik Light Italic'), local('Graphik-LightItalic'),
+        url('Graphik-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Graphik-LightItalic.woff2') format('woff2'),
+        url('Graphik-LightItalic.woff') format('woff'),
+        url('Graphik-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
